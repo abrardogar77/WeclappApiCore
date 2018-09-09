@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace WeclappApiCore.Controllers
 {
-    public class SalesChannelController : ApiController
+    public class salesChannelController : ApiController
     {
         // GET: api/SalesChannel
         public IEnumerable<string> Get()

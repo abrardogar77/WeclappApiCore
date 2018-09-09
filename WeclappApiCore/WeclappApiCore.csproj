@@ -268,7 +268,7 @@
     <Compile Include="Controllers\ProductionOrderController.cs" />
     <Compile Include="Controllers\recordAddressController.cs" />
     <Compile Include="Controllers\salesBillOfMaterialArticleItemController.cs" />
-    <Compile Include="Controllers\SalesChannelController.cs" />
+    <Compile Include="Controllers\salesChannelController.cs" />
     <Compile Include="Controllers\SalesInvoiceController.cs" />
     <Compile Include="Controllers\SalesOrderController.cs" />
     <Compile Include="Controllers\SectorController.cs" />
