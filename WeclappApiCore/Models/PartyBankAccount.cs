@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WeclappApiCore.Models
 {
-    public class PartyBankAccount
+    public class partyBankAccount
     {
 
         //        id(string, optional),

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WeclappApiCore.Models
 {
-    public class SalesChannel
+    public class salesChannel
     {
         public string key { get; set; }
         public string name { get; set; }

@@ -6,7 +6,7 @@ using WebApplication1.Models;
 
 namespace WeclappApiCore.Models
 {
-    public class ProductionOrder
+    public class productionOrder
     {
 
         //id(string, optional),
@@ -28,8 +28,8 @@ namespace WeclappApiCore.Models
         //lastModifiedDate(integer, optional),
         public long lastModifiedDate { get; set; }
         //productionOrderItems(Array[productionOrderItem], optional),
-        
-            // will implement in next order 
+
+        public List<productionOrderItem> productionOrderItems = new List<productionOrderItem>();
 
         //productionOrderNumber(string),
         public string productionOrderNumber { get; set; }
@@ -37,7 +37,7 @@ namespace WeclappApiCore.Models
         public string status { get; set; }
         //statusHistory(Array[productionOrderStatusHistory], optional),
 
-        // will implement in next order 
+        public List<productionOrderStatusHistory> statusHistory = new List<productionOrderStatusHistory>();
 
         //targetEndDate(integer),
         public long targetEndDate { get; set; }
@@ -54,27 +54,10 @@ namespace WeclappApiCore.Models
         public List<customAttributeDefinition> customAttributeDefinition = new List<WebApplication1.Models.customAttributeDefinition>();
 
 
-        //            productionOrderItem {
-        //id(string, optional),
-        //version(string, optional),
-        //actualWithdrawalDate(integer, optional),
-        //actualWithdrawalQuantity(string),
-        //articleId(string, optional),
-        //articleNumber(string, optional),
-        //createdDate(integer, optional),
-        //lastModifiedDate(integer, optional),
-        //note(string, optional),
-        //positionNumber(integer, optional),
-        //quantity(string, optional),
-        //targetWithdrawalDate(integer, optional),
-        //targetWithdrawalQuantity(string)
+       
 
 
-        //            productionOrderStatusHistory {
-        //status(string, optional),
-        //statusDate(integer, optional),
-        //userId(string, optional)
-
+      
 
     }
 }

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WeclappApiCore.Models
 {
-    public class ShipmentMethod
+    public class shipmentMethod
     {
         //        id(string, optional),
         public string id { get; set; }

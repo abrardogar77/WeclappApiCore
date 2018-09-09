@@ -6,7 +6,7 @@ using WebApplication1.Models;
 
 namespace WeclappApiCore.Models
 {
-    public class SalesOrder
+    public class salesOrder
     {
         //        id(string, optional),
         public string id { get; set; }
@@ -17,7 +17,7 @@ namespace WeclappApiCore.Models
         //commission(string, optional),
         public string commission { get; set; }
         //commissionSalesPartners(Array[commissionSalesPartner], optional),
-        public List<CommissionSalesPartner> commissionSalesPartner = new List<CommissionSalesPartner>();
+        public List<commissionSalesPartner> commissionSalesPartner = new List<commissionSalesPartner>();
 
         //createdDate(integer, optional),
         public long createdDate { get; set; }
@@ -75,7 +75,7 @@ namespace WeclappApiCore.Models
         //salesChannel(string, optional),
         public string salesChannel { get; set; }
         //salesInvoiceItems(Array[salesInvoiceItem], optional),
-
+        public List<salesInvoiceItem> salesInvoiceItems = new List<salesInvoiceItem>();
         //salesInvoiceType(string, optional),
         public string salesInvoiceType { get; set; }
         //salesOrderId(string, optional),
@@ -93,11 +93,11 @@ namespace WeclappApiCore.Models
         //shipmentMethodName(string, optional),
         public string shipmentMethodName { get; set; }
         //shippingCostItems(Array[salesShippingCostItem], optional),
-
+        public List<salesShippingCostItem> shippingCostItems = new List<salesShippingCostItem>();
         //status(string),
         public string status { get; set; }
         //statusHistory(Array[invoiceStatusHistory], optional),
-
+        public List<InvoiceStatusHistory> statusHistory = new List<InvoiceStatusHistory>();
         //termOfPaymentId(string, optional),
         public string termOfPaymentId { get; set; }
         //termOfPaymentName(string, optional),
@@ -107,101 +107,6 @@ namespace WeclappApiCore.Models
         // custom attribute
         public List<customAttributeDefinition> customAttributeDefinition = new List<WebApplication1.Models.customAttributeDefinition>();
 
-
-//        commissionSalesPartner {
-//id(string, optional),
-//version(string, optional),
-//commissionFix(string, optional),
-//commissionPercentage(string, optional),
-//commissionType(string),
-//createdDate(integer, optional),
-//lastModifiedDate(integer, optional),
-//salesPartnerCustomerId(string, optional),
-//salesPartnerCustomerNumber(string, optional)
-//}
-//    recordAddress {
-//city(string, optional),
-//company(string, optional),
-//company2(string, optional),
-//countryCode(string, optional),
-//firstName(string, optional),
-//globalLocationNumber(string, optional),
-//lastName(string, optional),
-//middleName(string, optional),
-//postOfficeBoxCity(string, optional),
-//postOfficeBoxNumber(string, optional),
-//postOfficeBoxZipCode(string, optional),
-//salutation(string, optional),
-//state(string, optional),
-//street1(string, optional),
-//street2(string, optional),
-//title(string, optional),
-//zipcode(string, optional)
-//}
-//salesInvoiceItem {
-//id(string, optional),
-//version(string, optional),
-//addPageBreakBefore(boolean, optional),
-//articleId(string, optional),
-//articleNumber(string, optional),
-//createdDate(integer, optional),
-//description(string, optional),
-//discountPercentage(string, optional),
-//freeTextItem(boolean, optional),
-//grossAmount(string, optional),
-//grossAmountInCompanyCurrency(string, optional),
-//groupName(string, optional),
-//lastModifiedDate(integer, optional),
-//manualUnitCost(boolean, optional),
-//manualUnitPrice(boolean, optional),
-//netAmount(string, optional),
-//netAmountInCompanyCurrency(string, optional),
-//note(string, optional),
-//parentItemId(string, optional),
-//positionNumber(integer, optional),
-//quantity(string, optional),
-//reductionAdditionItems(Array[reductionAdditionItem], optional),
-//taxId(string, optional),
-//taxName(string, optional),
-//title(string, optional),
-//unitCost(string, optional),
-//unitCostInCompanyCurrency(string, optional),
-//unitId(string, optional),
-//unitName(string, optional),
-//unitPrice(string, optional),
-//unitPriceInCompanyCurrency(string, optional)
-//}
-//salesShippingCostItem {
-//id(string, optional),
-//version(string, optional),
-//articleId(string, optional),
-//articleNumber(string, optional),
-//createdDate(integer, optional),
-//grossAmount(string, optional),
-//grossAmountInCompanyCurrency(string, optional),
-//lastModifiedDate(integer, optional),
-//manualUnitCost(boolean, optional),
-//manualUnitPrice(boolean, optional),
-//netAmount(string, optional),
-//netAmountInCompanyCurrency(string, optional),
-//taxId(string, optional),
-//taxName(string, optional),
-//unitCost(string, optional),
-//unitCostInCompanyCurrency(string, optional),
-//unitPrice(string, optional),
-//unitPriceInCompanyCurrency(string, optional)
-//}
-//invoiceStatusHistory {
-//status(string, optional),
-//statusDate(integer, optional),
-//userId(string, optional)
-//}
-//reductionAdditionItem {
-//position(integer, optional),
-//source(string, optional),
-//type(string, optional),
-//value(string, optional)
-//}
 
     }
 }

@@ -7,7 +7,7 @@ using WebApplication1.Models;
 
 namespace WeclappApiCore.Models
 {
-    public class Customer
+    public class customer
     {
         
         //        id(string, optional),
@@ -15,13 +15,13 @@ namespace WeclappApiCore.Models
         //version(string, optional),
         public string version { get; set; }
         //addresses(Array[address], optional),
-        public List<Address> addresses = new List<Address>();
+        public List<address> addresses = new List<address>();
         //amountInsured(string, optional),
         public string amountInsured { get; set; }
         //annualRevenue(string, optional),
         public string annualRevenue { get; set; }
         //bankAccounts(Array[partyBankAccount], optional), 
-        public List<PartyBankAccount> bankAccounts = new List<PartyBankAccount>();
+        public List<partyBankAccount> bankAccounts = new List<partyBankAccount>();
          //birthDate(integer, optional),
         public long birthDate { get; set; }
         //blockNotice(string, optional),
@@ -31,7 +31,7 @@ namespace WeclappApiCore.Models
         //commercialLanguageId(string, optional),
         public string commercialLanguageId { get; set; }
         //commissionSalesPartners(Array[commissionSalesPartner], optional), 
-        public List<CommissionSalesPartner> commissionSalesPartners = new List<CommissionSalesPartner>();
+        public List<commissionSalesPartner> commissionSalesPartners = new List<commissionSalesPartner>();
         //company(string, optional),
         public string company { get; set; }
         //company2(string, optional),
@@ -41,7 +41,7 @@ namespace WeclappApiCore.Models
         //companySizeName(string, optional),
         public string companySizeName { get; set; }
         //contacts(Array[contact], optional),
-        public List<Contact> contacts = new List<Contact>();
+        public List<contact> contacts = new List<contact>();
         //createdDate(integer, optional),
         public long createdDate { get; set; }
         //creditLimit(string, optional),
@@ -59,7 +59,7 @@ namespace WeclappApiCore.Models
         //customerRating(string, optional),
         public string customerRating { get; set; }
         //customerTopics(Array[entitiy], optional),
-        public List<Entity> customerTopics = new List<Entity>();
+        public List<entity> customerTopics = new List<entity>();
         //defaultHeaderDiscount(string, optional),
         public string defaultHeaderDiscount { get; set; }
         //defaultHeaderSurcharge(string, optional),

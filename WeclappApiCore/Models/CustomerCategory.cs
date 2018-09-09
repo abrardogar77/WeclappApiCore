@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WeclappApiCore.Models
 {
-    public class CustomerCategory
+    public class customerCategory
     {
 
         //        id(string, optional),

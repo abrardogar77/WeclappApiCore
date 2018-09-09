@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WeclappApiCore.Models
 {
-    public class Entity
+    public class entity
     {
 
         //        id(string, optional),

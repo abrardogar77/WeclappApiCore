@@ -5,7 +5,7 @@ using System.Web;
 
 namespace WeclappApiCore.Models
 {
-    public class Tax
+    public class tax
     {
         //        id(string, optional),
         public string id { get; set; }

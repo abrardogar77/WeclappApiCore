@@ -9,29 +9,29 @@ namespace WeclappApiCore.Controllers
 {
     public class ShipmentMethodController : ApiController
     {
-        // GET: api/ShipmentMethod
+        // GET: api/shipmentMethod
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET: api/ShipmentMethod/5
+        // GET: api/shipmentMethod/5
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST: api/ShipmentMethod
+        // POST: api/shipmentMethod
         public void Post([FromBody]string value)
         {
         }
 
-        // PUT: api/ShipmentMethod/5
+        // PUT: api/shipmentMethod/5
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE: api/ShipmentMethod/5
+        // DELETE: api/shipmentMethod/5
         public void Delete(int id)
         {
         }

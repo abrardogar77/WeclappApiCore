@@ -5,14 +5,14 @@ using System.Web;
 
 namespace WeclappApiCore.Models
 {
-    public class Contact
+    public class contact
     {
         //id(string, optional),
         public string id { get; set; }
         //version(string, optional),
         public string version { get; set; }
         //addresses(Array[address], optional), 
-        public List<Address> Address { get; set; }
+        public List<address> Address { get; set; }
         //birthDate(integer, optional),
         public long birthDate { get; set; }
         //company(string, optional),
